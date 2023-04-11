@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="vanish1">
+    <nav class="flex1 special">
+    <div class="head1 "><span class="white tasks">Tasks</span><span class="white1">&nbsp; List</span></div>
+    <div class="right"><button onclick="addNewItem()"  class="button1 buttonPosition">+</button><span class="white1 add1 special">&nbsp; Add Item</span></div>
+    </nav>
+    <div class="container1 white1 No special">No items in the todo list</div>
+    <div class="justPop">
+    <div  class = "addlist"><div class = "popup1">
+        <div class="text1">Add New List</div>
+        <input id="myInput"  type="text" class="input1" placeholder = "Add New List">
+        <div class = "bflex">
+        <button onclick="addFlex()" class = "add-btn1 ppt">Add</button>
+        <button onclick="closeIt()" class = "close1 ppt">Close</button></div>
+        </div>
+    </div>
+</div>
+
+    <div class = "addlist2 ">
+        <div class = "popup1">
+            <div class="text1">Add New Item</div>
+            <input id="myInput1"  type="text" class="input1 popup1Input" placeholder = "Add New List">
+            <div class = "bflex">
+            <button onclick="addContenttext()" class = "add-btn1 ppt">Add</button>
+            <button onclick="closeText()" class = "close1 ppt">Close</button></div>
+            </div>
+    </div> 
+</div>
+
+<div class="vanish2">
+    <div onclick="openFirstPage()" class="back head1"><button class="arr"> 	&lt;</button><span class="white1"> Back</span></div>
+    
+    <div class="buttonPosition"><button onclick="addNewItem2()"  class="button1">+</button></div>
+
+    <div class="toAddPopup"></div>
+
+   
+    
+    <div class="cardHead"></div>
+    <div class ="displayJustCard card"></div>
+
+</div>
+   
+    
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+
